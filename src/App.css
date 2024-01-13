@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  /* font-weight: 600; */
+  font-size: 1.1rem;
+  max-width: 1230px;
+}
+
+#colorPicker {
+  border: none;
+}
+
+#brushSize {
+  border: none;
+  border-radius: 10px;
+}
+#brushSize:hover {
+  background-color: #f2f2f2;
+}
+#brushSize:focus {
+  /* border:none; */
+  outline: 1px solid red;
+}
